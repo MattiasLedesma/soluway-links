@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soluway — Links</title>
+  <meta name="description" content="AI y automatización para tu negocio. Encontranos en todas nuestras plataformas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #e8f5f1 0%, #F5FAF8 60%, #d4ede6 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 16px;
+      color: #0F1F1B;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-bottom: 4px;
+    }
+
+    .brand-name {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #0F1F1B;
+      letter-spacing: -0.5px;
+    }
+
+    .brand-tagline {
+      font-size: 0.875rem;
+      color: #6B7C76;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .link-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 20px;
+      background: #ffffff;
+      border: 1.5px solid #DCE7E2;
+      border-radius: 14px;
+      text-decoration: none;
+      color: #0F1F1B;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      cursor: pointer;
+    }
+
+    .link-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(47, 125, 107, 0.13);
+      border-color: #2F7D6B;
+    }
+
+    .link-btn .icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+      color: #fff;
+    }
+
+    .icon-web     { background: #2F7D6B; }
+    .icon-wa      { background: #25D366; }
+    .icon-ig      { background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .icon-mail    { background: #3FA58E; }
+
+    .link-btn .label { flex: 1; }
+    .link-btn .label span {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #6B7C76;
+      margin-top: 1px;
+    }
+
+    .link-btn .arrow {
+      color: #6B7C76;
+      font-size: 0.8rem;
+    }
+
+    .footer {
+      margin-top: 16px;
+      font-size: 0.75rem;
+      color: #6B7C76;
+    }
+
+    .footer a {
+      color: #2F7D6B;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <img src="logo.png" alt="Soluway" class="logo" />
+    <div class="brand-name">Soluway</div>
+    <div class="brand-tagline">AI y automatización para tu negocio</div>
+
+    <a href="https://soluway.io" target="_blank" class="link-btn">
+      <div class="icon icon-web"><i class="fa-solid fa-globe"></i></div>
+      <div class="label">
+        Sitio web
+        <span>soluway.io</span>
+      </div>
+      <i class="fa-solid fa-arrow-right arrow"></i>
+    </a>
+
+    <a href="https://wa.me/5491138055177?text=Hola%2C%20me%20contacto%20desde%20la%20web%20de%20Soluway%20y%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios%20de%20AI%20y%20automatizaci%C3%B3n%20%F0%9F%91%8B" target="_blank" class="link-btn">
+      <div class="icon icon-wa"><i class="fa-brands fa-whatsapp"></i></div>
+      <div class="label">
+        WhatsApp
+        <span>Escribinos directo</span>
+      </div>
+      <i class="fa-solid fa-arrow-right arrow"></i>
+    </a>
+
+    <a href="https://www.instagram.com/soluway.io?igsh=MXVoOTdkMmYxYXE5bA%3D%3D&utm_source=qr" target="_blank" class="link-btn">
+      <div class="icon icon-ig"><i class="fa-brands fa-instagram"></i></div>
+      <div class="label">
+        Instagram
+        <span>@soluway.io</span>
+      </div>
+      <i class="fa-solid fa-arrow-right arrow"></i>
+    </a>
+
+    <a href="mailto:hola@soluway.io" class="link-btn">
+      <div class="icon icon-mail"><i class="fa-solid fa-envelope"></i></div>
+      <div class="label">
+        Email
+        <span>hola@soluway.io</span>
+      </div>
+      <i class="fa-solid fa-arrow-right arrow"></i>
+    </a>
+
+    <div class="footer">© 2025 Soluway · <a href="https://soluway.io">soluway.io</a></div>
+
+  </div>
+</body>
+</html>
